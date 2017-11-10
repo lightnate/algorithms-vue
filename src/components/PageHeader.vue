@@ -3,7 +3,7 @@
     <nav class="breadcrumb" aria-label="breadcrumbs">
       <ul>
         <li><router-link to="/">主页</router-link></li>
-        <li class="is-active"><a href="#" aria-current="page">选择排序</a></li>
+        <li class="is-active"><a href="#" aria-current="page">{{sortName}}</a></li>
       </ul>
     </nav>
     <div class="content">
