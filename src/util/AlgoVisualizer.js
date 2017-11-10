@@ -3,7 +3,7 @@ import SortData from './SortData.js'
 class AlgoVisualizer {
   constructor(g2d, canvasWidth, canvasHeight, count) {
     // 动画的执行速度
-    this.DELAY = 50
+    this.DELAY = 100
 
     this.g2d = g2d
 

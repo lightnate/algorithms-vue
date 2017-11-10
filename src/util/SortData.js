@@ -1,16 +1,5 @@
 class SortData {
-  constructor() {
-    // this.numbers = new Array(count)
-
-    // // 用于选择排序
-    // this.orderedIndex = 1 //[0...orderedIndex)是有序的
-    // this.currentCompareIndex = -1 //当前正在比较的元素索引
-    // this.currentMinIndex = -1 //当前找到的最小元素的索引
-
-    // for (let i = 0; i < count; i++) {
-    //   this.numbers[i] = parseInt(Math.random() * range) + 1
-    // }
-  }
+  constructor() {}
 
   length() {
     return this.numbers.length
