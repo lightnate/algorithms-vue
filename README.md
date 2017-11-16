@@ -1,6 +1,8 @@
 # algorithms-vue
 
-> A Vue.js project
+> 常见算法的可视化
+
+##### (在线地址)[https://lightnate.github.io/algorithms-vue]
 
 ## Build Setup
 
@@ -18,4 +20,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
