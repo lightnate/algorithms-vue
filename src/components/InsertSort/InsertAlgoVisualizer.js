@@ -6,17 +6,20 @@ class InsertAlgoVisualizer extends AlgoVisualizer {
 	constructor(g2d, canvasWidth, canvasHeight, count) {
     super(g2d, canvasWidth, canvasHeight, count)
     
-    // 初始化数据
+    // 初始化排序数据
     this.data = new InsertSortData(count, canvasHeight)
 
+    // 初始化绘制框架
     this.frame = new InsertAlgoFrame(g2d, canvasWidth, canvasHeight)
     
+    // 运行算法并绘制
     this.run()
 	}
 
 	run() {
     let len = this.data.length()
-    
+
+    // 保存每次交换后的数组
     this.setData(0, -1)
     for(let i = 1; i < len; i++) {
       this.setData(i, -1)

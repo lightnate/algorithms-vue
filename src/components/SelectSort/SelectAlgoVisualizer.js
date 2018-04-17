@@ -19,7 +19,7 @@ class SelectAlgoVisualizer extends AlgoVisualizer {
     
     this.setData(0, -1, -1)
     for (let i = 0; i < this.data.length(); i++) {
-      var minIndex = i
+      let minIndex = i
       this.setData(i, -1, minIndex)
       for (let j = i + 1; j < this.data.length(); j++) {
         this.setData(i, j, minIndex)
